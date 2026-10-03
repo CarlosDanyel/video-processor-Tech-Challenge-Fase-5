@@ -1,7 +1,7 @@
-package com.fiapx.processor.adapter;
+package techchallenge.fiapx.processor.adapter;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fiapx.processor.application.VideoProcessingService;
-import com.fiapx.processor.domain.Events;
+import techchallenge.fiapx.processor.application.VideoProcessingService;
+import techchallenge.fiapx.processor.domain.Events;
 import java.util.concurrent.TimeUnit;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.connection.CorrelationData;

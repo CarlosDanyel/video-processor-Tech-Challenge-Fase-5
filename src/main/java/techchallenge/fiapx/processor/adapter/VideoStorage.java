@@ -1,6 +1,6 @@
-package com.fiapx.processor.adapter;
+package techchallenge.fiapx.processor.adapter;
 import java.nio.file.Path;
-import com.fiapx.processor.application.port.VideoStoragePort;
+import techchallenge.fiapx.processor.application.port.VideoStoragePort;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import software.amazon.awssdk.core.sync.RequestBody;

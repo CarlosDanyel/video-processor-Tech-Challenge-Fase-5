@@ -1,4 +1,4 @@
-package com.fiapx.processor.domain;
+package techchallenge.fiapx.processor.domain;
 import java.util.UUID;
 public final class Events {
     private Events() {}

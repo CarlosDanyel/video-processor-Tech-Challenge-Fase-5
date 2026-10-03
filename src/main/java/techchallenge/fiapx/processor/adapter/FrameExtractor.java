@@ -1,6 +1,6 @@
-package com.fiapx.processor.adapter;
+package techchallenge.fiapx.processor.adapter;
 import java.io.IOException;
-import com.fiapx.processor.application.port.FrameExtractorPort;
+import techchallenge.fiapx.processor.application.port.FrameExtractorPort;
 import java.nio.file.*;
 import java.time.Duration;
 import java.util.Comparator;

@@ -14,7 +14,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Enforce release to master
         if: github.event_name == 'pull_request'
-        run: test "${{ github.head_ref }}" = release
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: test "$HEAD_REF" = release
       - uses: actions/setup-java@v4
         with:
           distribution: temurin

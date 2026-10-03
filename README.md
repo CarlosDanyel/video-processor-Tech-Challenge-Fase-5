@@ -2,6 +2,8 @@
 
 Java 21 / Spring Boot worker consuming durable RabbitMQ jobs. Each video is downloaded from S3-compatible storage, FFmpeg extracts one PNG per second, and the worker uploads a ZIP. Result events use publisher confirmations. Jobs are acknowledged after the result is confirmed; dead-letter queues retain exhausted failures.
 
+Java sources and tests live under `src/main/java/techchallenge/fiapx/processor` and `src/test/java/techchallenge/fiapx/processor`. The package root is `techchallenge.fiapx.processor`.
+
 ## Run and test
 
 Start infra dependencies, copy `.env.example` to `.env`, set `S3_ENDPOINT` and RabbitMQ credentials, export them with `set -a; source .env; set +a`, then run `JAVA_HOME=$(/usr/libexec/java_home -v 21) ./gradlew bootRun`. FFmpeg must be in `PATH`. Run `./gradlew clean test` for frame and ZIP tests. The Docker image installs FFmpeg. Prometheus metrics: `/actuator/prometheus` on port 8081.

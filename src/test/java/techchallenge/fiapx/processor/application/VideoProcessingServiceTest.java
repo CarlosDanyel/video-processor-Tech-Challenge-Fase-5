@@ -1,7 +1,7 @@
-package com.fiapx.processor.application;
-import com.fiapx.processor.application.port.FrameExtractorPort;
-import com.fiapx.processor.application.port.VideoStoragePort;
-import com.fiapx.processor.domain.Events;
+package techchallenge.fiapx.processor.application;
+import techchallenge.fiapx.processor.application.port.FrameExtractorPort;
+import techchallenge.fiapx.processor.application.port.VideoStoragePort;
+import techchallenge.fiapx.processor.domain.Events;
 import java.nio.file.Path;
 import java.util.UUID;
 import org.junit.jupiter.api.Test;

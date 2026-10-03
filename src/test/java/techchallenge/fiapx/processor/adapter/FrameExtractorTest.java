@@ -1,4 +1,4 @@
-package com.fiapx.processor.adapter;
+package techchallenge.fiapx.processor.adapter;
 import java.nio.file.*;
 import java.util.zip.ZipFile;
 import org.junit.jupiter.api.Test;
