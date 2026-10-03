@@ -1,7 +1,7 @@
-package techchallenge.fiapx.processor.application;
-import techchallenge.fiapx.processor.application.port.FrameExtractorPort;
-import techchallenge.fiapx.processor.application.port.VideoStoragePort;
-import techchallenge.fiapx.processor.domain.Events;
+package Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.application;
+import Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.application.port.FrameExtractorPort;
+import Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.application.port.VideoStoragePort;
+import Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.domain.Events;
 import java.nio.file.*;
 import java.util.Comparator;
 import org.springframework.stereotype.Service;

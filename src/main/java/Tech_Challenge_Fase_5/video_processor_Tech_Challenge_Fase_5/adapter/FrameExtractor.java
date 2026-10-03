@@ -1,6 +1,6 @@
-package techchallenge.fiapx.processor.adapter;
+package Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.adapter;
 import java.io.IOException;
-import techchallenge.fiapx.processor.application.port.FrameExtractorPort;
+import Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.application.port.FrameExtractorPort;
 import java.nio.file.*;
 import java.time.Duration;
 import java.util.Comparator;

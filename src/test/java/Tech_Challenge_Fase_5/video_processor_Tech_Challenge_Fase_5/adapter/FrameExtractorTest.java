@@ -1,4 +1,4 @@
-package techchallenge.fiapx.processor.adapter;
+package Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.adapter;
 import java.nio.file.*;
 import java.util.zip.ZipFile;
 import org.junit.jupiter.api.Test;

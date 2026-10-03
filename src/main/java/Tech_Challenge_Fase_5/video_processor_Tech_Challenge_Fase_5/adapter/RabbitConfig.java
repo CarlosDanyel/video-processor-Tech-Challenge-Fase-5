@@ -1,4 +1,4 @@
-package techchallenge.fiapx.processor.adapter;
+package Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.adapter;
 import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

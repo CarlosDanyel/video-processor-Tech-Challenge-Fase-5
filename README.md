@@ -2,7 +2,7 @@
 
 Java 21 / Spring Boot worker consuming durable RabbitMQ jobs. Each video is downloaded from S3-compatible storage, FFmpeg extracts one PNG per second, and the worker uploads a ZIP. Result events use publisher confirmations. Jobs are acknowledged after the result is confirmed; dead-letter queues retain exhausted failures.
 
-Java sources and tests live under `src/main/java/techchallenge/fiapx/processor` and `src/test/java/techchallenge/fiapx/processor`. The package root is `techchallenge.fiapx.processor`.
+Java sources and tests live under `src/main/java/Tech_Challenge_Fase_5/video_processor_Tech_Challenge_Fase_5` and `src/test/java/Tech_Challenge_Fase_5/video_processor_Tech_Challenge_Fase_5`. The package root is `Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5`.
 
 ## Run and test
 

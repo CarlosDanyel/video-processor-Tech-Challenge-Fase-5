@@ -1,4 +1,4 @@
-package techchallenge.fiapx.processor.domain;
+package Tech_Challenge_Fase_5.video_processor_Tech_Challenge_Fase_5.domain;
 import java.util.UUID;
 public final class Events {
     private Events() {}
